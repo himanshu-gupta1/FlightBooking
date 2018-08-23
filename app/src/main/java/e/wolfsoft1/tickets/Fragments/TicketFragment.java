@@ -19,9 +19,6 @@ import e.wolfsoft1.tickets.ModelClasses.RecyclerModel1;
 import e.wolfsoft1.tickets.ModelClasses.TicketsModel;
 import e.wolfsoft1.tickets.R;
 
-/**
- * Created by wolfsoft1 on 24/2/18.
- */
 
 public class TicketFragment extends Fragment {
     private View view;

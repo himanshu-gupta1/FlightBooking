@@ -1,8 +1,5 @@
 package e.wolfsoft1.tickets.ModelClasses;
 
-/**
- * Created by wolfsoft1 on 24/2/18.
- */
 
 public class TicketsModel {
     String time1,time2,platNo,timeStatus,amount;

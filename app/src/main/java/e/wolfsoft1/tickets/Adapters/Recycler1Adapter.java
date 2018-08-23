@@ -19,9 +19,7 @@ import e.wolfsoft1.tickets.Fragments.SearchFragment;
 import e.wolfsoft1.tickets.ModelClasses.RecyclerModel1;
 import e.wolfsoft1.tickets.R;
 
-/**
- * Created by wolfsoft1 on 17/2/18.
- */
+
 
 public class Recycler1Adapter extends RecyclerView.Adapter<Recycler1Adapter.MyViewHolder> {
 
