@@ -6,6 +6,7 @@ Instruction on Executing the code</br>
 3.Click on the green play icon in android studio to see the output</br>
 4.Kindly Ignore all the warnings for now</br>
 
+Also there is an apk folder in the github repo, open it and install the apk to test it directly....</br>
 ![screenshot_2018-08-23-12-08-16-012_e wolfsoft1 tickets](https://user-images.githubusercontent.com/26526375/44509382-24c2fe00-a6cf-11e8-956e-2d813961b113.png)
 ![screenshot_2018-08-23-12-08-22-199_e wolfsoft1 tickets](https://user-images.githubusercontent.com/26526375/44509386-27255800-a6cf-11e8-80d2-6ef6d4934631.png)
 ![screenshot_2018-08-23-12-12-10-846_e wolfsoft1 tickets](https://user-images.githubusercontent.com/26526375/44509520-956a1a80-a6cf-11e8-96a9-0713cf52d899.png)
