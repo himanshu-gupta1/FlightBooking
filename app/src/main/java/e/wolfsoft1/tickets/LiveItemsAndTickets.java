@@ -22,7 +22,6 @@ import java.util.Calendar;
 import e.wolfsoft1.tickets.Fragments.HomeFragment;
 import e.wolfsoft1.tickets.Fragments.ProfileFragment;
 import e.wolfsoft1.tickets.Fragments.SearchFragment;
-import e.wolfsoft1.tickets.Fragments.TicketFragment;
 
 public class LiveItemsAndTickets extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     private BottomBar mBottomBar;
@@ -100,7 +99,6 @@ public class LiveItemsAndTickets extends AppCompatActivity implements DatePicker
         c.set(Calendar.MONTH,month);
         c.set(Calendar.DAY_OF_MONTH,dayOfMonth);
         String currentDateString = DateFormat.getDateInstance().format(c.getTime());
-        Toast.makeText(this,currentDateString,Toast.LENGTH_LONG).show();
         SearchFragment.date=currentDateString;
     }
 }

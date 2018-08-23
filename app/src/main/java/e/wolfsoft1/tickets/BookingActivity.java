@@ -17,10 +17,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 import e.wolfsoft1.tickets.Adapters.BookingAdapter;
-import e.wolfsoft1.tickets.Adapters.TicketAdapter;
 import e.wolfsoft1.tickets.Database.TicketHelper;
 import e.wolfsoft1.tickets.ModelClasses.BookingModel;
-import e.wolfsoft1.tickets.ModelClasses.TicketsModel;
+
 
 public class BookingActivity extends AppCompatActivity {
 

@@ -36,9 +36,6 @@ import e.wolfsoft1.tickets.Database.TicketHelper;
 import e.wolfsoft1.tickets.ModelClasses.RecyclerModel1;
 import e.wolfsoft1.tickets.R;
 
-/**
- * Created by wolfsoft1 on 22/2/18.
- */
 
 public class SearchFragment extends Fragment {
     private View view;
@@ -102,7 +99,6 @@ public class SearchFragment extends Fragment {
             public void onClick(View v) {
                 src=tv_source.getText().toString();
                 dest=tv_destination.getText().toString();
-                Toast.makeText(getActivity(),src+" "+dest,Toast.LENGTH_LONG).show();
                 if(validate()) {
                     //date and seat
                     Intent intent = new Intent(getActivity(), BookingActivity.class);

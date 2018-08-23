@@ -25,10 +25,8 @@ import android.widget.Toast;
 import java.util.List;
 
 import e.wolfsoft1.tickets.Database.TicketHelper;
-import e.wolfsoft1.tickets.Fragments.TicketFragment;
 import e.wolfsoft1.tickets.LiveItemsAndTickets;
 import e.wolfsoft1.tickets.ModelClasses.BookingModel;
-import e.wolfsoft1.tickets.ModelClasses.TicketsModel;
 import e.wolfsoft1.tickets.R;
 
 public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.MyViewHolder>{
