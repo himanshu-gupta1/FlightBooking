@@ -1,0 +1,33 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_home"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+
+        />
+    <tab
+        id="@+id/search"
+        icon="@drawable/ic_search"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+
+
+        />
+    <!--<tab-->
+        <!--id="@+id/tickets"-->
+        <!--icon="@drawable/ic_tags"-->
+        <!--activeColor="@color/tab_select_txt"-->
+        <!--inActiveColor="@color/tab_unselect_txt"-->
+
+        <!--/>-->
+    <tab
+        id="@+id/profilee"
+        icon="@drawable/ic_profile"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+
+
+        />
+
+</tabs>
