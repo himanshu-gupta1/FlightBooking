@@ -31,6 +31,7 @@ private static final int DB_VERSION=1;
         insertFlights(db,103,"Air Asia","Delhi","Kolkata","04:55","07:10",135,4481,2);
         insertFlights(db,104,"Air Asia","Delhi","Kolkata","19:40","22:10",150,4481,2);
         insertFlights(db,105,"Air Asia","Chennai","Jaipur","23:20","02:00",160,6217,2);
+        insertFlights(db,106,"Indigo","Delhi","Kolkata","23:20","02:00",160,4481,1);
 
     }
 

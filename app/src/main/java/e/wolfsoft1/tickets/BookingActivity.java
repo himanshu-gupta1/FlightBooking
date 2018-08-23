@@ -79,6 +79,7 @@ public class BookingActivity extends AppCompatActivity {
     }
 
 
+    //get all the  flights between particular source and destination
     public void populateData()
     {
         SQLiteOpenHelper ticketHelper=new TicketHelper(this);

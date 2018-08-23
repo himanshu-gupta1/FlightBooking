@@ -126,12 +126,14 @@ public class SearchFragment extends Fragment {
 
 
         populateData();
+        //display the source list using Dialog
         tv_source.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 System.out.println("starting onclick");
                 AlertDialog.Builder mBuilder = new AlertDialog.Builder(getActivity());
                 mBuilder.setTitle("Choose Source");
+                mBuilder.setIcon(R.drawable.flight);
                 sourceArr = new String[source.size()];
                 sourceArr = source.toArray(sourceArr);
                 mBuilder.setSingleChoiceItems(sourceArr, -1, new DialogInterface.OnClickListener() {
@@ -152,12 +154,14 @@ public class SearchFragment extends Fragment {
             }
         });
 
+        //display the destination list fetched using Dialog
         tv_destination.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 System.out.println("starting onclick");
                 AlertDialog.Builder mBuilder = new AlertDialog.Builder(getActivity());
                 mBuilder.setTitle("Choose Destination");
+                mBuilder.setIcon(R.drawable.flight);
                 destinationArr = new String[source.size()];
                 destinationArr = destination.toArray(destinationArr);
                 mBuilder.setSingleChoiceItems(destinationArr, -1, new DialogInterface.OnClickListener() {
@@ -183,6 +187,7 @@ public class SearchFragment extends Fragment {
 
     }
 
+    //for populating date from the flights table according to the source location and destination location in the database
     public void populateData()
     {
         SQLiteOpenHelper  ticketHelper=new TicketHelper(getActivity());
@@ -199,6 +204,7 @@ public class SearchFragment extends Fragment {
 
     }
 
+    //for validating if there are no fields that are left empty
     public boolean validate()
     {
         if(src.contains("Location")||dest.contains("Location")||seat==null||date==null)

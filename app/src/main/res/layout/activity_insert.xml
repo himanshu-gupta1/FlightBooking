@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Enter brand id(1 or 2)"
+        android:hint="Enter brand id(1 for Indigo and 2 for Air Asia)"
         />
 
     <Button
